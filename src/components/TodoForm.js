@@ -44,7 +44,7 @@ const TodoForm = ({ inputText, setInputText, todos, setTodos, setStatus }) => {
         <button onClick={handleTaskStatus} type='button' name='filter' value='uncompleted' className={`filter-button ${isClicked === 'uncompleted' ? 'active' : ''}` }key='button3'> Uncompleted</button>
       </div>
       : 
-      <p>Add a new todo to start planning today 🚀</p>
+      <p></p>
       }
         
     </div>
